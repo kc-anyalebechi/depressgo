@@ -5,7 +5,7 @@
 ## Project Description
 
 
-For this project, I will be creating a spirital and mental health app that provides motivational quotes for our visits. The quotes will be curated based on how they are feeling that day (Good, So-so, or Bad). I also plan on providing a subscription feature where they can receive a daily quote of the day. 
+For this project, I will be creating a mental health app that provides motivational quotes for our visits. The quotes will be curated based on how they are feeling that day (Good, So-so, or Bad). I also plan on providing a subscription feature where they can receive a daily quote of the day. 
 
 With their subscription they will receive a free e-book, short daily reads, and resources that will provide ongoing emotional and spirital support. 
 
