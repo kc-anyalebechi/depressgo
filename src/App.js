@@ -15,7 +15,7 @@ function App() {
   // const [QuoteData, setQuoteData] = useState("");
   
 //   useEffect (()=> {
-//     const quoteUrl = ''; 
+//     const quoteUrl = 'https://zenquotes.io/api/quotes'; 
 //     const makeApiCall = async () => {
 //       const res = await fetch(quoteUrl);
 //       const json = await res.json(); 
