@@ -12,21 +12,7 @@ import "./App.css";
 
 
 function App() {
-  // const [QuoteData, setQuoteData] = useState("");
-  
-//   useEffect (()=> {
-//     const quoteUrl = 'https://zenquotes.io/api/quotes'; 
-//     const makeApiCall = async () => {
-//       const res = await fetch(quoteUrl);
-//       const json = await res.json(); 
-//       return json
-//     }; 
-//     makeApiCall().then((json) => {
-//       setQuoteData(json.results); 
-    
-//   }); 
 
-// }, []); 
 
   // *******************
   //   TODAYS DATE CODE
@@ -99,8 +85,8 @@ function App() {
       ******  */}
       <div className="footer">
         <Footer />
-        Footer
-        <h1>the footer section in the app</h1>
+        
+        
       </div>
     </div>
   );
