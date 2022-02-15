@@ -41,22 +41,9 @@ function App() {
   
   return (
     <div className="header">
-      <h1>This the app</h1>
       <div>
         <Header />
-        <nav>
-          <Link to='/'>
-            <h1>DepressGo</h1>
-          </Link>
-
-          <Link to="/">Home</Link>
-          <Link to="/Main/QuoteOfDay">Get The Quote The Day</Link>
-          <Link to="/Main/StayInspired">Stay Inspired</Link>
-          <Link to="/Main/ContactUs">Contact Us</Link>
-          <Link to="/Main/NeedHelp">
-            Need Help? Speak To A Licensed Therapist
-          </Link>
-        </nav>
+        
       </div>
 
       {/* *****************

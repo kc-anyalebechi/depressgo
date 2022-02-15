@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Quote from "../Quote/Quote";
 
 function Main() {
