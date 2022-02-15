@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import {Link} from "react-router-dom"; 
 
 
 function Quote() {
@@ -30,7 +31,10 @@ function Quote() {
               <h3>How are you feeling?</h3>
 
               <div>
-              <button>Good</button>
+              <Link to="/GreenBtn" > 
+               <button>Good</button>
+              </Link>
+
               <button>So-So</button>
               <button>Bad</button>
               </div>

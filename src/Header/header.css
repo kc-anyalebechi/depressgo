@@ -1,7 +1,7 @@
 
 
 .menu-section {
-    background-color: blue;
+    background-color: lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 2em;
     padding-top: 1em;
@@ -14,11 +14,12 @@
 
 .menu-section .logo {
 grid-column: 1/2;
+padding: .5 em;
 
 }
 
 .menu-section .nav {
-grid-column: 2/4;
+grid-column: 1/4;
 grid-row: 2/3;
 align-items: flex-end;
 }
@@ -35,12 +36,12 @@ a:link {
     text-decoration: none;
   }
   a:visited {
-    color: pink;
+    color: black;
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color: red;
+    color: blue;
     background-color: transparent;
     text-decoration: underline;
   }
