@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './header.css'
 
 
 function Header() {
   return (
     <div>
+      <div className='menu-section'>
       <Link to='/'>
             <h1>DepressGo</h1>
           </Link>
@@ -17,6 +19,7 @@ function Header() {
             Need Help? Speak To A Licensed Therapist
           </Link>
         </nav>
+        </div>
 
     </div>
   )
