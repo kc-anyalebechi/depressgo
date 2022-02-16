@@ -17,18 +17,16 @@ function GreenBtn() {
   return (
 
     <div>
-      GreenBtn
-      <Header />
+      
       <div>
         <h3>Based on how you are feeling right now lets try... </h3>
         <p>{goodQuotes[randomNumber].quote}</p>
         <p>{goodQuotes[randomNumber].author}</p>
 
         {/* <Routes>
-          <Route path="/GreenBtn" element={<GreenBtn />} />
+          <Route path="/Main/GreenBtn" element={<GreenBtn />} />
         </Routes> */}
       </div>
-      <Footer />
     </div>
   );
 }
