@@ -64,6 +64,12 @@ function App() {
 
           </Routes>
         </main>
+        <div className="theme-quote">
+          <p>
+            “Today is the first day of the rest of your life.” ~ Attributed to
+            Charles E. “Chuck” Dederich, Sr
+          </p>
+        </div>
 
       </div>
 

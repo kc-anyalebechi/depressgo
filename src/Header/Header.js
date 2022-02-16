@@ -8,7 +8,7 @@ function Header() {
       <div className="menu-section">
         <div className="logo">
           <Link to="/">
-            <h1>DepressGo</h1>
+            <h2>DepressGo</h2>
           </Link>
         </div>
         <div className="nav">
@@ -17,15 +17,10 @@ function Header() {
           <Link to="/Main/StayInspired">Stay Inspired </Link>
           <Link to="/Main/ContactUs">Contact Us </Link>
           <Link to="/Main/NeedHelp">
-            Need Help? Speak To A Licensed Therapist
+            Need Someone To Listen?
           </Link>
         </div>
-        <div className="theme-quote">
-          <p>
-            “Today is the first day of the rest of your life.” ~ Attributed to
-            Charles E. “Chuck” Dederich, Sr
-          </p>
-        </div>
+       
       </div>
     </div>
   );
