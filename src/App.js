@@ -52,7 +52,6 @@ function App() {
       ***************** */}
 
       <div className="main">
-        <h1>the main section in the app</h1>
 
         <main>
           <Routes>
@@ -65,7 +64,6 @@ function App() {
 
           </Routes>
         </main>
-        <Main />
 
       </div>
 
