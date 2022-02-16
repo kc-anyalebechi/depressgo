@@ -11,8 +11,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import GreenBtn from "./Main/GreenBtn";
 import Quote from "./Quote/Quote";
 import "./App.css";
-
-
+import Home from "./home";
 
 function App() {
 
@@ -55,18 +54,13 @@ function App() {
 
       <div className="main">
 
-      <div className="theme-quote">
-          <p>
-            “Today is the first day of the rest of your life.” ~ Attributed to
-            Charles E. “Chuck” Dederich, Sr
-          </p>
-        </div>
+      
 
         {/* <Quote/> */}
 
         <main>
           <Routes>
-            <Route path="/Home" element={<Navigate to="/" />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Main/QuoteOfDay" element={<QuoteOfDay />} />
             <Route path="/Main/StayInspired" element={<StayInspired />} />
             <Route path="/Main/NeedHelp" element={<NeedHelp />} />
