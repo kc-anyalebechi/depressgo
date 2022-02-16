@@ -8,8 +8,10 @@ import ContactUs from "./Main/ContactUs";
 import NeedHelp from "./Main/NeedHelp";
 import Footer from "./Footer/Footer";
 import { Route, Routes, Navigate } from "react-router-dom";
-import "./App.css";
 import GreenBtn from "./Main/GreenBtn";
+import Quote from "./Quote/Quote";
+import "./App.css";
+
 
 
 function App() {
@@ -53,6 +55,15 @@ function App() {
 
       <div className="main">
 
+      <div className="theme-quote">
+          <p>
+            “Today is the first day of the rest of your life.” ~ Attributed to
+            Charles E. “Chuck” Dederich, Sr
+          </p>
+        </div>
+
+        {/* <Quote/> */}
+
         <main>
           <Routes>
             <Route path="/Home" element={<Navigate to="/" />} />
@@ -64,12 +75,7 @@ function App() {
 
           </Routes>
         </main>
-        <div className="theme-quote">
-          <p>
-            “Today is the first day of the rest of your life.” ~ Attributed to
-            Charles E. “Chuck” Dederich, Sr
-          </p>
-        </div>
+        
 
       </div>
 
