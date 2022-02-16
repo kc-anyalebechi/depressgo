@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./home.css"; 
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
         </p>
       </div>
       <div>
-        <h3>How are you feeling?</h3>
+        <h3>How are you feeling today?</h3>
 
         <Link to="/Main/GreenBtn">
           <button>Good</button>
