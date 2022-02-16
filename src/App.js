@@ -9,6 +9,7 @@ import NeedHelp from "./Main/NeedHelp";
 import Footer from "./Footer/Footer";
 import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
+import GreenBtn from "./Main/GreenBtn";
 
 
 function App() {
@@ -51,7 +52,6 @@ function App() {
       ***************** */}
 
       <div className="main">
-        <Main />
         <h1>the main section in the app</h1>
 
         <main>
@@ -61,17 +61,19 @@ function App() {
             <Route path="/Main/StayInspired" element={<StayInspired />} />
             <Route path="/Main/NeedHelp" element={<NeedHelp />} />
             <Route path="/Main/ContactUs" element={<ContactUs />} />
-
+            <Route path="/Main/GreenBtn" element={<GreenBtn />} />
 
           </Routes>
         </main>
+        <Main />
+
       </div>
 
       {/* ******
       FOOTER
       ******  */}
       <div className="footer">
-        <Footer />
+        <Footer /> 
         
         
       </div>

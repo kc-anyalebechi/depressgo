@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 function Quote() {
   
-        const [QuoteData, setQuoteData] = useState("");
+        const [quoteData, setQuoteData] = useState("");
       
         // API Call
         const makeAPICall = () =>
@@ -16,18 +16,25 @@ function Quote() {
         useEffect(() => {
           makeAPICall();
         }, []);
-      
-        if (QuoteData) {
+        
+        const randomNumber = Math.floor(Math.random() * quoteData.length)
+        console.log(randomNumber)
+        console.log(quoteData.length)
+
+
+
+        if (quoteData) {
           return (
             <div>
               <h4>Example API Call for Inspirational Quotes</h4>
               <p>
-                <strong>Quote:</strong> "{QuoteData[6].text}"
+                <strong>Quote:</strong> "{quoteData[randomNumber].text}"
               </p>
               <p>
-                <strong>Author:</strong> {QuoteData[6].author}
+                <strong>Author:</strong> {quoteData[randomNumber].author === null ? 'Unknown' : quoteData[randomNumber].author}
+                
               </p>
-      
+
               <h3>How are you feeling?</h3>
 
               <div>
