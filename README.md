@@ -48,7 +48,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 - [wireframes](https://drive.google.com/file/d/1NMGg83mwFH9r71hdUMjGiZv7PJ-Cb7DB/view?usp=sharing
 )
-- [react architecture](https://drive.google.com/file/d/1NMGg83mwFH9r71hdUMjGiZv7PJ-Cb7DB/view?usp=sharing)
+- [react architecture](https://drive.google.com/file/d/1CCFi0fD6F88Um9XqT0Jj9mPAiBTpDlz8/view?usp=sharing)
 
 
 ### MVP/PostMVP - 5min
@@ -115,5 +115,8 @@ ReactStrap - responsive navbar
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  Code snippet should not be greater than 10 lines of code.
+
+I found an arroy of famous quote from https://gist.github.com/awran5/355643af99164a61ae0f95c84206d151
+that I will use to map random quotes. 
 
 
