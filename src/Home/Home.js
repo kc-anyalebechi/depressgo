@@ -9,10 +9,11 @@ function Home() {
       <div className="theme-quote">
         <h1>
           <em>“Today is the first day of the rest of your life.”</em> 
-          <br />
+          </h1>
+          <h3>
           ~ 
           Charles E. Dederich, Sr
-        </h1>
+          </h3>
         </div>
       
 
@@ -24,10 +25,10 @@ function Home() {
 
         <div className="feelingBtns">
           <Link to="/Main/GreenBtn">
-            <button>Good</button>
+            <button1>Good</button1>
           </Link>
-          <button>So-So</button>
-          <button>Bad</button>
+          <button2>Okay</button2>
+          <button3>Not Good</button3>
         </div>
 
       </div>
