@@ -14,23 +14,21 @@ function Home() {
           ~ 
           Charles E. Dederich, Sr
           </h3>
-        </div>
+      </div>
       
 
-      <div>
+      <div callName="question-section">
 
-        <div className="feelingQuestion">
+
           <h3>How are you feeling today?</h3>
-        </div>
+        
 
-        <div className="feelingBtns">
           <Link to="/Main/GreenBtn">
-            <button1>Good</button1>
+            <button>Good</button>
           </Link>
-          <button2>Okay</button2>
-          <button3>Not Good</button3>
-        </div>
-
+          <button>Okay</button>
+          <button>Not Good</button>
+        
       </div>
     </div>
   );

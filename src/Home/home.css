@@ -1,6 +1,12 @@
 .theme-quote {
     background-color: #427898;
+
     background-image: './quoteBackgroundImage.png';
     padding: 5em; 
     color: white; 
+}
+
+.question-section {
+    background-color: red;
+    padding-bottom: 1em;
 }
