@@ -3,7 +3,7 @@ import './NeedHelp.css'
 
 function NeedHelp() {
   return (
-    <div className='NhBody'>
+    <div>
     <h1>Online Therapy</h1>
     <h2>Instant help. On any device, whenever you are in the world.</h2>
 <p>Live Sessions
