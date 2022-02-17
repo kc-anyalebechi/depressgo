@@ -14,7 +14,9 @@ color: red;
 
 .feelQ {
     color: #427898;
-    font-size: 30px; 
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0; 
 
 }
 

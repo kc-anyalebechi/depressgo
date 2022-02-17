@@ -20,6 +20,7 @@ function Home() {
 
       <div callName="questionSection">
         <h3 className="feelQ">How are you feeling today?</h3>
+        <p>~~~✨Click On A Face Below✨~~~</p>
 
         <div className="buttons">
           {/* <div className="greenBtn"> */}
