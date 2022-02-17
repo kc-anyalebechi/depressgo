@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import {Link} from "react-router-dom"; 
+import {Link} from "react-router-dom";
+import './QuoteOfDay.css' 
 
 function QuoteOfDay() {
   const [quoteData, setQuoteData] = useState("");
@@ -23,15 +24,15 @@ function QuoteOfDay() {
 
   if (quoteData) {
     return (
-      <div>
-        <h4>Your Quote Of The Day...</h4>
-        <p>
+      <div className="randomQuote">
+        <h4>The Quote Of The Day is...</h4>
+        <h1>
            "{quoteData[randomNumber].text}"
-        </p>
-        <p>
+        </h1>
+        <h3>
           ~ {quoteData[randomNumber].author === null ? 'Unknown' : quoteData[randomNumber].author}
           
-        </p>
+        </h3>
 
          {/* <h3>How are you feeling?</h3>
 

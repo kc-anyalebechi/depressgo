@@ -1,7 +1,7 @@
 // import React, { useEffect, useState } from "react";
 import React from "react";
 import Header from "./Header/Header";
-import QuoteOfDay from "./Main/QuoteOfDay";
+import QuoteOfDay from "./QuoteOfDay/QuoteOfDay";
 import StayInspired from "./Main/StayInspired";
 import ContactUs from "./Main/ContactUs";
 import NeedHelp from "./Main/NeedHelp";
