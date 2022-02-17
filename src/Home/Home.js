@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function Home() {
   return (
@@ -18,12 +19,14 @@ function Home() {
         <div className="buttons">
           {/* <div className="greenBtn"> */}
             <Link to="/Main/GreenBtn">
-              <button>Good</button>
+              <button className="greenBtn">
+              <FontAwesomeIcon icon="fa-solid fa-face-smile-beam" />
+              </button>
             </Link>
           {/* </div> */}
 
-          <button>Okay</button>
-          <button>Not Good</button>
+          <button className="yellowBtn">Okay</button>
+          <button className="redBtn">Not Good</button>
         </div>
       </div>
     </div>

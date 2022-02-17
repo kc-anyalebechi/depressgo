@@ -16,18 +16,44 @@ padding-bottom: 1em;
 }
 
 .greenBtn {
-color: green;
-background-color: red; 
+color: white;
+width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
+
+.yellowBtn {
+    color: black;
+    background-color: yellow;
+    width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+    }
+
+.redBtn {
+        color: white;
+        background-color: red;
+        width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+        }
 
 .buttons, Link{
 display: flex;
 justify-content: space-evenly;
-background-color: green;
+/* background-color: green; */
 font-size: 100px;
 }
 
 body {
-    background-color: red;
+    /* background-color: red; */
     color: blue
 }
+
+/* .fa-face-smile-beam {
+    color: white;
+    background-color: red;
+    width: 200px;
+height: 200px;
+border-radius: 50%;  */
+
