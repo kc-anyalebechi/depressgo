@@ -16,7 +16,7 @@ function Header() {
           <Link to="/Main/QuoteOfDay"> The Quote The Day </Link>
           <Link to="/Main/StayInspired">Stay Inspired </Link>
           <Link to="/Main/ContactUs">Contact Us </Link>
-          <Link to="/Main/NeedHelp">
+          <Link to="/NeedHelp">
             Need Someone To Listen?
           </Link>
         </div>

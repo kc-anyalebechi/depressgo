@@ -5,11 +5,29 @@
     color: white; 
 }
 
-.question-section {
+.questionSection {
     background-color: red;
-    padding-bottom: 1em;
-}
+padding-bottom: 1em;
+}    
+
 
 .feelQ {
     color: yellow; 
+}
+
+.greenBtn {
+color: green;
+background-color: red; 
+}
+
+.buttons, Link{
+display: flex;
+justify-content: space-evenly;
+background-color: green;
+font-size: 100px;
+}
+
+body {
+    background-color: red;
+    color: blue
 }

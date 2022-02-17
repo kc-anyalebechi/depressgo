@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 import QuoteOfDay from "./QuoteOfDay/QuoteOfDay";
 import StayInspired from "./Main/StayInspired";
 import ContactUs from "./Main/ContactUs";
-import NeedHelp from "./Main/NeedHelp";
+import NeedHelp from "./NeedHelp/NeedHelp";
 import Footer from "./Footer/Footer";
 import { Route, Routes, Navigate } from "react-router-dom";
 import GreenBtn from "./Main/GreenBtn";
@@ -62,7 +62,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Main/QuoteOfDay" element={<QuoteOfDay />} />
             <Route path="/Main/StayInspired" element={<StayInspired />} />
-            <Route path="/Main/NeedHelp" element={<NeedHelp />} />
+            <Route path="/NeedHelp" element={<NeedHelp />} />
             <Route path="/Main/ContactUs" element={<ContactUs />} />
             <Route path="/Main/GreenBtn" element={<GreenBtn />} />
 
