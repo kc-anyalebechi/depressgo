@@ -8,34 +8,37 @@
 .questionSection {
     background-color: red;
 padding-bottom: 1em;
+color: red;
 }    
 
 
 .feelQ {
-    color: yellow; 
+    color: rgba(169, 169, 169, 0.386); 
+
 }
 
+    
+
+
 .greenBtn {
-width: 150px;
-  height: 150px;
+width: 125px;
+  height: 125px;
   border-radius: 50%;
   border: 0;
 }
 
 .yellowBtn {
-    color: black;
-    background-color: yellow;
-    width: 200px;
-  height: 200px;
-  border-radius: 50%; 
+    width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 0;
     }
 
 .redBtn {
-        color: white;
-        background-color: red;
-        width: 200px;
-  height: 200px;
-  border-radius: 50%; 
+    width: 125px;
+  height: 125px;
+    border-radius: 50%;
+    border: 0;
         }
 button {
 /* background-color: purple; */
