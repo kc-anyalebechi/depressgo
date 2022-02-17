@@ -16,10 +16,10 @@ padding-bottom: 1em;
 }
 
 .greenBtn {
-color: white;
-width: 200px;
-  height: 200px;
+width: 150px;
+  height: 150px;
   border-radius: 50%;
+  border: 0;
 }
 
 .yellowBtn {
@@ -37,12 +37,16 @@ width: 200px;
   height: 200px;
   border-radius: 50%; 
         }
+button {
+/* background-color: purple; */
+}
 
-.buttons, Link{
+.buttons, Link {
 display: flex;
 justify-content: space-evenly;
 /* background-color: green; */
-font-size: 100px;
+/* font-size: 100px;
+background-color: #b4dbdc; */
 }
 
 body {

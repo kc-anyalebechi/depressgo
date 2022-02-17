@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  // faClock, // the clock icon
+  // faUserCircle, // the user circle icon
+  faFaceSmileBeam,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
@@ -18,11 +23,19 @@ function Home() {
 
         <div className="buttons">
           {/* <div className="greenBtn"> */}
+          <button className="greenBtn">
             <Link to="/Main/GreenBtn">
-              <button className="greenBtn">
-              <FontAwesomeIcon icon="fa-solid fa-face-smile-beam" />
-              </button>
+              {/* <FontAwesomeIcon icon="fa-solid fa-face-smile-beam" /> */}
+              <FontAwesomeIcon
+                icon={faFaceSmileBeam}
+                style={{
+                  fontSize: 100,
+                  // backgroundColor: "white",
+                  color: "green",
+                }}
+              />
             </Link>
+          </button>
           {/* </div> */}
 
           <button className="yellowBtn">Okay</button>
