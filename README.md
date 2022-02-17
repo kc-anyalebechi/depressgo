@@ -112,6 +112,8 @@ Unless otherwise noted, time is listed in hours:
 ## Additional Libraries
 ReactStrap - responsive navbar
 
+Used this link to test out a menu Navbar (https://medium.com/swlh/responsive-navbar-using-react-bootstrap-5e0e0bd33bd6)
+
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  Code snippet should not be greater than 10 lines of code.
