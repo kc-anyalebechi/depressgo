@@ -1,13 +1,18 @@
 .randomQuote {
-    margin: 0;
+    background-color: #b5d2dd;
     background-color: #427898;
-    padding: 1em 3em; 
-    color: white; 
+    padding: 15px 15px 25px 15px; 
+    color: #f8faf0; 
 
 }
 
 h4 {
 text-align: left;
-padding-bottom: 3em;
+padding-bottom: 1em;
 padding-top: 5px;
+}
+
+hr {
+    padding: 0; 
+    margin: 0;
 }

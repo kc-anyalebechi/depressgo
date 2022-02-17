@@ -9,6 +9,7 @@ import Footer from "./Footer/Footer";
 import { Route, Routes, Navigate } from "react-router-dom";
 import GreenBtn from "./Main/GreenBtn";
 import Home from './Home/Home'; 
+
 import "./App.css";
 
 function App() {
@@ -67,8 +68,13 @@ function App() {
 
           </Routes>
         </main>
-        
-
+        <hr />
+      <div className="depressgo-features">
+        <h1>
+          features will go here
+          
+        </h1>
+      </div>
       </div>
 
       {/* ******
