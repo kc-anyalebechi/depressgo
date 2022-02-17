@@ -8,9 +8,12 @@ import NeedHelp from "./NeedHelp/NeedHelp";
 import Footer from "./Footer/Footer";
 import { Route, Routes, Navigate } from "react-router-dom";
 import GreenBtn from "./Main/GreenBtn";
-import Home from './Home/Home'; 
+import Home from './Home/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./App.css";
+import Navigation from "./Navigation";
+import { Button } from "bootstrap";
 
 function App() {
 
@@ -44,7 +47,7 @@ function App() {
     <div className="header">
       <div>
         <Header />
-        
+        <Button />
       </div>
 
       {/* *****************
@@ -56,8 +59,9 @@ function App() {
       
 
         {/* <Quote/> */}
-
         <main>
+        <Navigation/>
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Main/QuoteOfDay" element={<QuoteOfDay />} />
