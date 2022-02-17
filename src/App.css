@@ -1,6 +1,7 @@
 .App {
   justify-content: center;
   background-color: #f8faf0;
+  background-color: red;
 }
 
 .App-logo {
@@ -37,7 +38,7 @@
     transform: rotate(360deg);
   }
 }
-
+/* 
 body {
   align: center
-}
+} */
