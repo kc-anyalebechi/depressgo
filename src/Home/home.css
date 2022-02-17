@@ -13,7 +13,8 @@ color: red;
 
 
 .feelQ {
-    color: rgba(169, 169, 169, 0.386); 
+    color: #427898;
+    font-size: 30px; 
 
 }
 
@@ -47,14 +48,17 @@ button {
 .buttons, Link {
 display: flex;
 justify-content: space-evenly;
-/* background-color: green; */
+background-color: #ebecf0;
+width: 125px;
+height: 125px;
+border-radius: 20%;
+
 /* font-size: 100px;
 background-color: #b4dbdc; */
 }
 
 body {
     /* background-color: red; */
-    color: blue
 }
 
 /* .fa-face-smile-beam {
