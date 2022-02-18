@@ -1,4 +1,3 @@
-// import React, { useEffect, useState } from "react";
 import React from "react";
 import Header from "./Header/Header";
 import QuoteOfDay from "./QuoteOfDay/QuoteOfDay";
@@ -9,11 +8,9 @@ import Footer from "./Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import GreenBtn from "./Main/GreenBtn";
 import Home from './Home/Home';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./App.css";
-import Navigation from "./Navigation";
-// import { Button } from "bootstrap";
+// import Navigation from "./Navigation";
 
 function App() {
 
@@ -72,12 +69,10 @@ function App() {
 
           </Routes>
         </main>
-        <hr />
       <div className="depressgo-features">
-        <h1>
-          features will go here
-          
-        </h1>
+        <h2>
+            DespressGo™ membership features go here.           
+        </h2>
       </div>
       </div>
 

@@ -7,6 +7,7 @@
   /* padding-top: 1em; */
   margin-top: 0;
   align-items: center;
+  justify-content: space-between;
   display: grid;
   grid-template-columns: 1fr 1fr 3fr;
   grid-template-rows: 1fr  ;
@@ -25,8 +26,6 @@ h2 {
 .menu-section .nav {
   grid-column: 3/4;
   grid-row: 1/2;
-  display: flex;
-  justify-content:space-between;
 }
 
 /* .menu-section .theme-quote {

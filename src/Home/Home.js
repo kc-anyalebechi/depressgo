@@ -2,11 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  // faClock, // the clock icon
-  // faUserCircle, // the user circle icon
-  faFaceSmile,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFaceSmile, faFaceFrown, faFaceMeh } from "@fortawesome/free-solid-svg-icons";
+
+
 
 function Home() {
   return (
@@ -26,42 +24,48 @@ function Home() {
           {/* <div className="greenBtn"> */}
           <button className="greenBtn">
             <Link to="/Main/GreenBtn">
-              {/* <FontAwesomeIcon icon="fa-solid fa-face-smile-beam" /> */}
               <FontAwesomeIcon
                 icon={faFaceSmile}
                 style={{
                   fontSize: 100,
                   // backgroundColor: "white",
-                  color: "green",
+                  color: "238823",
                 }}
               />
             </Link>
+            <p>I'm really good.</p>
+
           </button>
           {/* </div> */}
 
           <button className="yellowBtn">
-            <Link to="/Main/GreenBtn">
-              {/* <FontAwesomeIcon icon="fa-solid fa-face-smile-beam" /> */}
+            <Link to="/Main/YellowBtn">
               <FontAwesomeIcon
-                // icon={faFaceSmileBeam}
-                
+                icon={faFaceMeh}
                 style={{
                   fontSize: 100,
                   // backgroundColor: "white",
-                  color: "yellow",
+                  color: "ffbf00",
                 }}
               />
-            </Link></button>
+            </Link>
+            <span className="meh">
+            <p>Meh</p>
+            </span>
+
+          </button>
           <button className="redBtn">
-            <Link to="/Main/GreenBtn">
+            <Link to="/Main/RedBtn">
               <FontAwesomeIcon
-                // icon={faFaceSmileBeam}
+                icon={faFaceFrown}
                 style={{
                   fontSize: 100,
-                  color: "red",
+                  color: "d2222d",
                 }}
               />
-            </Link></button>
+            </Link>
+            <p>I feel off.</p>
+          </button>
         </div>
       </div>
     </div>

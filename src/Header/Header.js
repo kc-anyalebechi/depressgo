@@ -13,7 +13,7 @@ function Header() {
             <h2>DepressGo</h2>
           </Link>
         </div>
-        <>
+        {/* <>
       <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar=nav" />
@@ -26,19 +26,19 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    </> */}
 
     
 
-        {/* <div className="nav">
-          {/* <Link to="/">Home </Link> */}
-          <Link to="/Main/QuoteOfDay"> The Quote The Day </Link>
+        <div className="nav">
+           <Link to="/">Home </Link> 
+           <Link to="/Main/QuoteOfDay"> The Quote The Day </Link>
           <Link to="/Main/StayInspired">Stay Inspired </Link>
           <Link to="/Main/ContactUs">Contact Us </Link>
           <Link to="/NeedHelp">
             Need Someone To Listen?
           </Link>
-        {/* </div>} */}
+        </div>
 
 
         {/* <div className="theme-quote">

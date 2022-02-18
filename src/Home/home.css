@@ -6,9 +6,8 @@
 }
 
 .questionSection {
-    background-color: red;
 padding-bottom: 1em;
-color: red;
+
 }    
 
 
@@ -37,6 +36,10 @@ width: 125px;
   border: 0;
     }
 
+.p .meh {
+        color: red
+    }
+
 .redBtn {
     width: 125px;
   height: 125px;
@@ -47,26 +50,14 @@ button {
 /* background-color: purple; */
 }
 
-.buttons, Link {
+.buttons {
+    align-content: center;
 display: flex;
-justify-content: space-evenly;
-background-color: #ebecf0;
+/* justify-content: ; */
+/* background-color: red; */
 width: 125px;
 height: 125px;
 border-radius: 20%;
 
-/* font-size: 100px;
-background-color: #b4dbdc; */
 }
-
-body {
-    /* background-color: red; */
-}
-
-/* .fa-face-smile-beam {
-    color: white;
-    background-color: red;
-    width: 200px;
-height: 200px;
-border-radius: 50%;  */
 
