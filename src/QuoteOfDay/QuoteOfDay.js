@@ -24,10 +24,10 @@ function QuoteOfDay() {
   if (quoteData) {
     return (
       <div className="randomQuote">
-        <h4>The Quote Of The Day is...</h4>
-        <h1>
+        <h4>Today's quote is...</h4>
+        <em><h1>
            "{quoteData[randomNumber].text}"
-        </h1>
+        </h1></em>
         <h3>
           ~ {quoteData[randomNumber].author === null ? 'Unknown' : quoteData[randomNumber].author}
           

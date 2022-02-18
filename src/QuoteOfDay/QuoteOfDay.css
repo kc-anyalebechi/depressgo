@@ -1,7 +1,7 @@
 .randomQuote {
     background-color: #b5d2dd;
     background-color: #427898;
-    padding: 15px 15px 25px 15px; 
+    padding: 5em; 
     color: #f8faf0; 
 
 }
@@ -15,4 +15,9 @@ padding-top: 5px;
 hr {
     padding: 0; 
     margin: 0;
+}
+
+h3 {
+padding-top: 2em;
+text-align: center;
 }

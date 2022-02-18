@@ -16,14 +16,11 @@ function GreenBtn() {
 
     <div className="randomQuote">
       
-      <div>
-        <h1>"{goodQuotes[randomNumber].quote}"</h1>
+      
+        <em><h1>"{goodQuotes[randomNumber].quote}"</h1></em>
         <h3>~{goodQuotes[randomNumber].author}</h3>
 
-        {/* <Routes>
-          <Route path="/Main/GreenBtn" element={<GreenBtn />} />
-        </Routes> */}
-      </div>
+        
     </div>
   );
 }

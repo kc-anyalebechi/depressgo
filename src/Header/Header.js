@@ -31,10 +31,10 @@ function Header() {
     
 
         <div className="nav">
-           <Link to="/">Home </Link> 
-           <Link to="/Main/QuoteOfDay"> The Quote The Day </Link>
-          <Link to="/Main/StayInspired">Stay Inspired </Link>
-          <Link to="/Main/ContactUs">Contact Us </Link>
+           {/* <Link to="/">Home      </Link>  */}
+           <Link to="/Main/QuoteOfDay"> The Quote The Day      </Link>
+          <Link to="/Main/StayInspired">Stay Inspired      </Link>
+          <Link to="/Main/ContactUs">Contact Us     </Link>
           <Link to="/NeedHelp">
             Need Someone To Listen?
           </Link>
@@ -54,3 +54,5 @@ function Header() {
 }
 
 export default Header;
+
+

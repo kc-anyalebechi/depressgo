@@ -1,7 +1,7 @@
 export const goodQuotes = [
     {
         "quote": "Be yourself; everyone else is already taken.",
-        "author": "Oscar Wilde1",
+        "author": "Oscar Wilde",
         "profession": "Irish poet",
         "topics": [
             "Inspirational",
@@ -11,7 +11,7 @@ export const goodQuotes = [
     },
     {
         "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
-        "author": "Oscar Wilde2",
+        "author": "Oscar Wilde",
         "profession": "Irish poet",
         "topics": [
             "Philosophy",
@@ -20,7 +20,7 @@ export const goodQuotes = [
     },
     {
         "quote": "True friends stab you in the front.",
-        "author": "Oscar Wilde3",
+        "author": "Oscar Wilde",
         "profession": "Irish poet",
         "topics": [
             "Philosophy",

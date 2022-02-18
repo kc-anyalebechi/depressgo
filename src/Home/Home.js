@@ -16,7 +16,7 @@ function Home() {
         <h3>~ Charles E. Dederich, Sr</h3>
       </div>
 
-      <div callName="questionSection">
+      <div className="questionSection">
         <h3 className="feelQ">How are you feeling today?</h3>
         <p>~~~✨Click On A Face Below✨~~~</p>
 
@@ -33,7 +33,7 @@ function Home() {
                 }}
               />
             </Link>
-            <p>I'm really good.</p>
+            <p>I'm good.</p>
 
           </button>
           {/* </div> */}
@@ -50,7 +50,7 @@ function Home() {
               />
             </Link>
             <span className="meh">
-            <p>Meh</p>
+            <p>Meh.</p>
             </span>
 
           </button>
