@@ -2,7 +2,7 @@ import React from "react";
 
 import {mehQuotes} from "../QuotesApiData/mehQuotes"
 
-function yellowBtn() {
+function YellowBtn() {
     // const randomNumber = Math.floor(Math.random() * 3)
     const randomNumber = Math.floor(Math.random() * mehQuotes.length)
 
@@ -26,4 +26,4 @@ function yellowBtn() {
   );
 }
 
-export default yellowBtn;
+export default YellowBtn;

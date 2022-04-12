@@ -51,10 +51,13 @@ width: 125px;
         }
 button {
 /* background-color: purple; */
+justify-content: space-evenly;
+
 }
 
 .buttons {
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
 /* justify-content: ; */
