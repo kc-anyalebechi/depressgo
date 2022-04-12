@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/depressgo/static/css/main.ed0154d4.css",
-    "main.js": "/depressgo/static/js/main.4fe60a1d.js",
+    "main.css": "/depressgo/static/css/main.7a32237f.css",
+    "main.js": "/depressgo/static/js/main.50218d19.js",
     "static/js/787.ae0b14b6.chunk.js": "/depressgo/static/js/787.ae0b14b6.chunk.js",
     "index.html": "/depressgo/index.html",
-    "main.ed0154d4.css.map": "/depressgo/static/css/main.ed0154d4.css.map",
-    "main.4fe60a1d.js.map": "/depressgo/static/js/main.4fe60a1d.js.map",
+    "main.7a32237f.css.map": "/depressgo/static/css/main.7a32237f.css.map",
+    "main.50218d19.js.map": "/depressgo/static/js/main.50218d19.js.map",
     "787.ae0b14b6.chunk.js.map": "/depressgo/static/js/787.ae0b14b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed0154d4.css",
-    "static/js/main.4fe60a1d.js"
+    "static/css/main.7a32237f.css",
+    "static/js/main.50218d19.js"
   ]
 }
